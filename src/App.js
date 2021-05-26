@@ -1,27 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import NavSidebar from './components/NavSidebar';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import UserTable from "./pages/userTable";
 
 function App() {
   return (
-      <header className="global-header">
-          <div className="logo">
-              <svg width="32" height="4" viewBox="0 0 32 4" fill="none" xmlns="http://www.w3.org/2000/svg" id="firstSvg">
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M31.6372 0.5C28.7143 0.709247 25.7914 0.918494 21.7733 1.14939C17.7551 1.38028 12.7077 1.64004 8.89405 1.53902C5.90913 1.44681 2.93538 1.09941 0 0.5C0.919382 1.46475 2.00486 2.22016 3.19341 2.72235C5.42529 3.52753 7.77399 3.87489 10.1213 3.74694C13.9042 3.59511 17.6747 3.18301 21.4104 2.5131C25.1712 1.91422 28.3712 1.20711 31.6372 0.5Z" fill="white"/>
-              </svg>
-              <svg width="26" height="11" viewBox="0 0 26 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M25.092 0.702849C20.8503 1.48553 16.6346 2.26821 13.72 2.79931C10.8054 3.33042 9.2896 3.49814 7.78677 3.61694C6.39858 3.72619 5.0048 3.72619 3.6166 3.61694C2.58288 3.50539 1.5571 3.32097 0.545898 3.06487C1.79425 3.70998 3.10269 4.21126 4.44934 4.56035C6.42201 5.0162 8.43655 5.22955 10.4541 5.19627C12.5208 5.11786 14.5819 4.91723 16.6281 4.59529L20.0566 4.14105C19.559 4.84047 19.1842 5.6314 18.9506 6.47512C18.7857 7.31218 18.8351 8.18162 19.0937 8.99087C19.3023 9.56687 19.6318 10.0834 20.0566 10.5003C20.3226 9.19819 20.6949 7.92375 21.1691 6.69175C21.7039 5.45683 22.3581 4.28569 23.1208 3.19764C23.7286 2.32184 24.3801 1.48202 25.0725 0.681885" fill="white"/>
-              </svg>
-              <p>Post Admin</p>
-          </div>
-          <div className="admin">
-              <p>Admin</p>
+          <div className="container-fluid">
+              <div className="row">
+                  <NavSidebar/>
+                  <main role="main" className="col-md-9 ml-sm-auto col-lg-10 px-4">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
+                  </main>
+              </div>
           </div>
 
-
-
-
-      </header>
 
   );
 }
