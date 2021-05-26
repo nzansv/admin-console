@@ -36,3 +36,83 @@
     transform: rotate(360deg);
   }
 }
+
+.global-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 16px;
+
+  position: relative;
+  width: auto;
+  height: 64px;
+
+  background: #032341;
+  /* border & divider / divider ↓ */
+
+  box-shadow: inset 0px -1px 0px #F0F0F0;
+}
+#firstSvg{
+
+}
+.logo svg {
+  position: absolute;
+  left: 0%;
+  right: 1.13%;
+  top: 37.5%;
+  bottom: 20%;
+
+}
+
+.logo p{
+  position: static;
+  width: 94px;
+  height: 32px;
+  left: 44px;
+  top: 8px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  /* identical to box height, or 178% */
+
+
+  color: #FFFFFF;
+
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  padding-left: 26px;
+}
+
+.admin p{
+  position: static;
+  width: 41px;
+  height: 22px;
+  left: 0px;
+  top: 0px;
+
+  /* Body 14 / regular */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height, or 157% */
+
+
+  /* Character / Primary(inverse) */
+
+  color: #FFFFFF;
+
+}
+
+
+
