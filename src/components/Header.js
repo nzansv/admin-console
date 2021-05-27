@@ -4,7 +4,7 @@ import './style/header.css';
 import logo from '../assets/icons/icons-hover/logo.svg'
 import adminLogo from '../assets/icons/icons-hover/adminLogo.svg'
 
-function Header() {
+export default function Header() {
     return (
         <nav className="navbar">
             <div className="container-fluid">
@@ -19,5 +19,3 @@ function Header() {
         </nav>
     );
 }
-
-export default Header;

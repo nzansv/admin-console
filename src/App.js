@@ -1,10 +1,12 @@
 import NavSidebar from './components/NavSidebar';
 import Header from './components/Header'
 import Login from './components/Login'
+import Component from "./components/Component";
 
 function App() {
   return (
-      <Login/>
+      <Component/>
+      // <Login/>
       // <Header/>
       // <NavSidebar/>
   );
