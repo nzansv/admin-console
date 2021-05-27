@@ -1,4 +1,6 @@
-.global-header {
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -14,19 +16,15 @@
 
     box-shadow: inset 0px -1px 0px #F0F0F0;
 }
-#firstSvg{
 
+.container-fluid{
+    padding-left: 0;
 }
-.logo svg {
-    position: absolute;
-    left: 0%;
-    right: 1.13%;
-    top: 37.5%;
-    bottom: 20%;
+.logo {
 
 }
 
-.logo p{
+.container-fluid span{
     position: static;
     width: 94px;
     height: 32px;
@@ -49,15 +47,32 @@
     flex: none;
     order: 1;
     flex-grow: 0;
-    padding-left: 26px;
+    margin: 0px 12px;
 }
 
-.admin p{
+.admin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 8px 0px 0px;
+
     position: static;
-    width: 41px;
-    height: 22px;
-    left: 0px;
+    width: 32px;
+    height: 24px;
+    left: 12px;
     top: 0px;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+.admin span {
+    /* text */
 
     /* Body 14 / regular */
 
@@ -72,5 +87,9 @@
     /* Character / Primary(inverse) */
 
     color: #FFFFFF;
-
 }
+
+
+
+
+
