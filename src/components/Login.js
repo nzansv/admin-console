@@ -2,8 +2,6 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style/login.css';
 import logoLogin from '../assets/icons/icons-hover/logoLogin.svg'
-import user from '../assets/icons/icons-hover/user.svg'
-import password from '../assets/icons/icons-hover/password.svg'
 
 function Login() {
     return (
