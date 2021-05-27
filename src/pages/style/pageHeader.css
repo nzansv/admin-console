@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+.pageHeader {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 24px;
+
+    height: 150px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+
+    background: #FFFFFF;
+}
+
+.pageHeader label {
+
+    left: 0px;
+    top: 0px;
+}
+
+.pageHeader h2 {
+    position: static;
+    width: 207px;
+    height: 28px;
+    left: 0px;
+    top: 0px;
+
+    /* Heading 20 / bold */
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+
+
+    /* Character / Title .85 */
+
+    color: rgba(0, 0, 0, 0.85);
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}

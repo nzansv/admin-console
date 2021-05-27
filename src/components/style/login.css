@@ -110,6 +110,9 @@ body {
 
 }
 
+.form-control ::placeholder {
+    color: #1890FF;
+}
 
 
 .form-signin .btn-primary {
