@@ -14,18 +14,86 @@
 }
 
 .pageHeader label {
+    margin-bottom: 0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
 
-    left: 0px;
-    top: 0px;
+    align-items: center;
+
+    /* Character / Secondary .45 */
+
+    color: rgba(0, 0, 0, 0.45);
 }
 
-.pageHeader h2 {
+.pageHeader label span {
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.alert-primary{
+    bottom: 94px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 9px 16px;
+
     position: static;
-    width: 207px;
-    height: 28px;
+    width: auto;
+    height: 40px;
+    left: 25px;
+    top: 94px;
+
+    background: #E6F7FF;
+    /* Daybreak Blue / 3 */
+
+    border: 1px solid #91D5FF;
+    box-sizing: border-box;
+    border-radius: 2px;
+
+}
+
+.alert-primary p {
+    position: static;
+    width: 1258.11px;
+    height: 22px;
+    left: calc(50% - 1258.11px/2 + 2.05px);
+    top: 0px;
+    padding-left: 12px;
+
+    /* Body 14 / regular */
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+
+
+    /* Character / Title .85 */
+
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.alert-primary #alert {
+
+    width: 20px;
+    height: 20px;
+}
+
+.alert-primary svg {
+padding-top: 2px;
+}
+.pageHeader h5 {
+    position: static;
+
     left: 0px;
     top: 0px;
 
+    margin: 12px 0px 12px 0px;
     /* Heading 20 / bold */
 
     font-family: Roboto;
