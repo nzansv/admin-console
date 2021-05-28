@@ -134,5 +134,35 @@
     flex-grow: 0;
     margin: 0px 16px;
 }
+.table-box{
+    padding: 0px 18px 16px 24px;
+}
+.page-item a{
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.016);
+    border-radius: 2px;
+    color: black;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    height: 32px;
 
+}
 
+.page-counter a, .page-skipper a{
+    color: black;
+    border: none;
+}
+
+.page-counter a:hover, .page-skipper a:hover{
+    color: black;
+    border: none;
+    background-color: transparent;
+}
+.page-item{
+    padding: 0px 4px 16px 4px;
+}
+
+{
+    border: 1px solid #FAFAFA;
+}

@@ -7,8 +7,6 @@ function App() {
   return (
       <Component/>
       // <Login/>
-      // <Header/>
-      // <NavSidebar/>
   );
 }
 

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
-nav {
+#header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -10,7 +10,6 @@ nav {
     position: relative;
     width: auto;
     height: 64px;
-
     background: #032341;
     /* border & divider / divider ↓ */
 
