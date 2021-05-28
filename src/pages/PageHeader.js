@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './style/pageHeader.css'
 import alert from'../assets/icons/alert.svg'
 
-export default function Component() {
+export default function PageHeader() {
     return (
         <div className="pageHeader">
             <label> Главная / <span>Пользователи Post.kz</span></label>
