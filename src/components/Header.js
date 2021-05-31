@@ -6,7 +6,7 @@ import adminLogo from '../assets/icons/icons-hover/adminLogo.svg'
 
 export default function Header() {
     return (
-        <nav className="navbar" id="header">
+    <nav className="navbar" id="header">
             <div className="container-fluid">
                 <div className="logo">
                <a className="navbar-brand" href="#"> <img src={logo} alt={"logo"}/><span>Post Admin</span></a>

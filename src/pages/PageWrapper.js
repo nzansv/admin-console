@@ -10,11 +10,11 @@ import userTable from "./userTable";
 export default function PageWrapper() {
     return (
        <div>
-           <PageHeaderUser/>
-           <CreateUser/>
-           {/*<PageHeader/>*/}
+           {/*<PageHeaderUser/>*/}
+           {/*<CreateUser/>*/}
+           <PageHeader/>
            {/*<Search/>*/}
-           {/*<UserTable/>*/}
+           <UserTable/>
        </div>
 
     )

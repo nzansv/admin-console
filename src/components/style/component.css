@@ -1,3 +1,8 @@
 .page-wrapper {
     padding-left: 208px;
+    padding-top: 64px;
+}
+.fixed {
+    position: fixed;
+
 }
