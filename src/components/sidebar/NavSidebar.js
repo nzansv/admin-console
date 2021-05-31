@@ -1,11 +1,11 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './style/navSidebar.css';
-import cell from '../assets/icons/cell.svg'
-import user from '../assets/icons/user.svg'
-import monitoring from '../assets/icons/monitoring.svg'
-import trash from '../assets/icons/trash.svg'
-import diagram from '../assets/icons/diagram.svg'
+import '../style/navSidebar.css';
+import cell from '../../assets/icons/cell.svg'
+import user from '../../assets/icons/user.svg'
+import monitoring from '../../assets/icons/monitoring.svg'
+import trash from '../../assets/icons/trash.svg'
+import diagram from '../../assets/icons/diagram.svg'
 export default function NavSidebar() {
     return (
 

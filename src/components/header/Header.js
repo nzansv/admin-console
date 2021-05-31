@@ -1,8 +1,8 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './style/header.css';
-import logo from '../assets/icons/icons-hover/logo.svg'
-import adminLogo from '../assets/icons/icons-hover/adminLogo.svg'
+import '../style/header.css';
+import logo from '../../assets/icons/icons-hover/logo.svg'
+import adminLogo from '../../assets/icons/icons-hover/adminLogo.svg'
 
 export default function Header() {
     return (

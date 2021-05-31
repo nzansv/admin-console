@@ -1,9 +1,19 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './createUser.css'
+import PageHeaderUser from "./PageHeaderUser";
+import Header from "../../components/header/Header";
+import NavSidebar from "../../components/sidebar/NavSidebar";
+import PageHeader from "../../components/header/PageHeader";
+import Search from "../../components/search/Search";
 
 function CreateUser() {
     return (
+        <>
+            <Header/>
+            <NavSidebar/>
+            <div className="page-wrapper">
+                    <PageHeaderUser/>
         <div className="container-fluid" id="create-user-form">
             <div className="saveUser">
                 <div className="d-flex">
@@ -58,6 +68,8 @@ function CreateUser() {
                 </form>
             </div>
         </div>
+        </div>
+        </>
     )
 }
 export default CreateUser;

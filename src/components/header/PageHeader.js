@@ -1,7 +1,7 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './style/pageHeader.css'
-import alert from'../assets/icons/alert.svg'
+import '../../pages/style/pageHeader.css'
+import alert from '../../assets/icons/alert.svg'
 
 export default function PageHeader() {
     return (
