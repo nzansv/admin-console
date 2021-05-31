@@ -79,6 +79,10 @@ body {
 .input-login #user{
     background: url(/src/assets/icons/icons-hover/user.svg) no-repeat scroll 13.3px 12px #FFFFFF;
 }
+#login-button{
+    text-decoration: none;
+    color: white;
+}
 
 .input-login #password{
     background: url(/src/assets/icons/icons-hover/password.svg) no-repeat scroll 12px 11px #FFFFFF;

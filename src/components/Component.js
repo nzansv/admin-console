@@ -1,8 +1,8 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import NavSidebar from "./NavSidebar";
-import Header from "./Header";
-import PageWrapper from "../pages/PageWrapper";
+import NavSidebar from "./sidebar/NavSidebar";
+import Header from "./header/Header";
+import PageWrapper from "./wrapper/PageWrapper";
 import './style/component.css'
 
 function Component() {

@@ -1,8 +1,8 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './style/login.css';
-import logoLogin from '../assets/icons/icons-hover/logoLogin.svg'
-
+import '../style/login.css';
+import logoLogin from '../../assets/icons/icons-hover/logoLogin.svg'
+import { Link } from 'react-router-dom';
 function Login() {
     return (
         <body className="text-center">
@@ -16,7 +16,7 @@ function Login() {
 
                 <div className="input-login ">
                     <input className="form-control" id="password" type="password" placeholder="Пароль"/></div>
-                        <button className="w-100 btn btn-lg btn-primary" type="submit" value="register">Войти</button>
+                        <button className="w-100 btn btn-lg btn-primary" type="submit" value="register"><Link id="login-button" to="/userTable">Войти</Link></button>
             </form>
         </main>
         </body>
