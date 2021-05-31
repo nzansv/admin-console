@@ -2,20 +2,31 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/userTable.css'
 import reload from '../../assets/icons/reload.svg'
-import add from '../../assets/icons/add.svg'
 import {Pagination} from "react-bootstrap";
+import Component from "../../components/Component";
+import Search from "../../components/search/Search";
+import "../style/serviceTable.css"
+
 
 export default function ServiceTable() {
     return (
+        <>
+        <Component/>
+            <div className="page-wrapper">
+                <div className="pageHeader">
+                    <label> Главная / <span>Услуги и сервисы</span></label>
+                    <h5>Услуги и сервисы</h5>
+                </div>
+
+                <Search/>
+
         <div className="serviceTable">
             <div className="upperTableToDo">
                 <h5>Результаты поиска</h5>
                 <div className="toDoButton">
-                    <a href="#" className="btn btn-primary"><img src={add} alt=""/> Создать</a>
-                    <a href="#" className="btn" id="btn-update">Редактировать</a>
-                    <a href="#" className="btn" id="btn-update">Удалить</a>
-                    <a href="#" className="btn" id="btn-update">Сбросить пароль</a>
-                    <a href=""><img src={reload} alt=""/></a>
+                    <a href="#" className="btn btn-primary"><svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12.6026 3.75754L9.24014 0.395044C9.14639 0.301294 9.01982 0.248169 8.88701 0.248169H2.24951C1.97295 0.248169 1.74951 0.471606 1.74951 0.748169V13.7482C1.74951 14.0247 1.97295 14.2482 2.24951 14.2482H12.2495C12.5261 14.2482 12.7495 14.0247 12.7495 13.7482V4.11223C12.7495 3.97942 12.6964 3.85129 12.6026 3.75754ZM11.5964 4.34192H8.65576V1.40129L11.5964 4.34192ZM11.6245 13.1232H2.87451V1.37317H7.59326V4.74817C7.59326 4.92222 7.6624 5.08914 7.78547 5.21221C7.90854 5.33528 8.07546 5.40442 8.24951 5.40442H11.6245V13.1232ZM7.28232 8.31223L6.3167 6.71223C6.28232 6.65598 6.22139 6.62161 6.15576 6.62161H5.55576C5.51982 6.62161 5.48545 6.63098 5.45576 6.65129C5.36826 6.70598 5.3417 6.82161 5.39795 6.91067L6.68389 8.94817L5.38076 11.0232C5.36306 11.0516 5.35328 11.0843 5.35243 11.1178C5.35159 11.1513 5.35971 11.1844 5.37596 11.2138C5.39221 11.2431 5.416 11.2675 5.44486 11.2845C5.47373 11.3016 5.50662 11.3106 5.54014 11.3107H6.0792C6.14482 11.3107 6.2042 11.2763 6.23857 11.2216L7.21826 9.63567L8.1917 11.22C8.22607 11.2763 8.28701 11.3091 8.35108 11.3091H8.93701C8.97295 11.3091 9.00733 11.2982 9.03858 11.2794C9.12608 11.2232 9.15107 11.1075 9.09482 11.02L7.78232 8.98254L9.11514 6.91223C9.13318 6.88386 9.14329 6.85116 9.14441 6.81756C9.14553 6.78395 9.13762 6.75066 9.12151 6.72115C9.10539 6.69163 9.08166 6.66698 9.05279 6.64974C9.02391 6.63251 8.99095 6.62334 8.95732 6.62317H8.39951C8.33389 6.62317 8.27295 6.65754 8.23857 6.71379L7.28232 8.31223Z" fill="white"/>
+                    </svg> Выгрузить в Excel</a>
                 </div>
             </div>
 
@@ -23,41 +34,35 @@ export default function ServiceTable() {
                 <table className="table">
                     <thead>
                     <tr>
-                        <th scope="col">
-                            <div className="form-check">
-                                <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                                <label className="form-check-label" htmlFor="flexCheckDefault">
-                                </label>
-                            </div>
-                        </th>
-                        <th scope="col">ИИН</th>
-                        <th scope="col">ФИО</th>
-                        <th scope="col">Дата рождения</th>
-                        <th scope="col">Номер телефона</th>
-                        <th scope="col">Электронный адрес</th>
-                        <th scope="col">Дата регистрации</th>
-                        <th scope="col">Последняя авторизация</th>
-                        <th scope="col">Роль</th>
+
+                        <th scope="col">Наименование сервиса/услуги</th>
+                        <th scope="col">Тип подключения</th>
+                        <th scope="col">Активирован</th>
+                        <th scope="col">Дата ввода в эксплуатацию</th>
+
                     </tr>
                     </thead>
                     <tbody>
                     <tr>
-                        <td>
-                            <div className="form-check">
-                                <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                                <label className="form-check-label" htmlFor="flexCheckDefault">
-                                </label>
-                            </div>
+                        <td><a href="#">Наименование услуги/сервиса</a></td>
+                        <td>Online
                         </td>
-                        <td><a href="#">0645956024</a></td>
-                        <td>Ермеков Е.У.</td>
-                        <td>13.07.1986</td>
-                        <td>77764560229</td>
-                        <td>somemail@gmail.com</td>
+                        <td>Да</td>
                         <td>2021-02-05 08:28:36</td>
-                        <td>2021-02-05 08:28:36</td>
-                        <td>User</td>
                     </tr>
+                    <tr>
+                        <td><a href="#">Наименование услуги/сервиса</a></td>
+                        <td>Online</td>
+                        <td>Да</td>
+                        <td>2021-02-05 08:28:36</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Наименование услуги/сервиса</a></td>
+                        <td>Online</td>
+                        <td>Да</td>
+                        <td>2021-02-05 08:28:36</td>
+                    </tr>
+
 
                     </tbody>
                 </table>
@@ -102,6 +107,7 @@ export default function ServiceTable() {
                 </nav>
             </div>
         </div>
+        </div></>
     );
 }
 

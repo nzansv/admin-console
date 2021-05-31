@@ -12,9 +12,6 @@ function Component() {
         <Header/>
                 <NavSidebar/>
             </div>
-                <div className="page-wrapper">
-                <PageWrapper/>
-                </div>
         </>
     )
 }

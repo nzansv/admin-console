@@ -9,12 +9,12 @@ import NavSidebar from "../../components/sidebar/NavSidebar";
 import PageHeader from "../../components/header/PageHeader";
 import Search from "../../components/search/Search";
 import {Link} from "react-router-dom";
+import Component from "../../components/Component";
 
 export default function UserTable() {
     return (
         <>
-            <Header/>
-            <NavSidebar/>
+            <Component/>
             <div className="page-wrapper">
                     <PageHeader/>
                     <Search/>
