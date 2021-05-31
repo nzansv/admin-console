@@ -6,6 +6,7 @@ import ReportTable from "./pages/service/reportTable";
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import ServiceTable from "./pages/service/serviceTable";
+import MonitoringApplication from "./pages/monitoring/monitoringApp";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/userCreate" component={CreateUser} />
             <Route path="/serviceTable" component={ServiceTable} />
             <Route path="/reportTable" component={ReportTable} />
+            <Route path="/monitoring" component={MonitoringApplication} />
         </Switch>
         </BrowserRouter>
       </main>

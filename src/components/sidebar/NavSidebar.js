@@ -14,7 +14,7 @@ export default function NavSidebar() {
                 <ul className="align-middle">
                     <li id="user"><a href="#"><img src={user} alt={"user"}/>Пользователи</a></li>
                     <li id="cell"><a href="#"><img src={cell} alt={"cell"}/>Отчетность</a></li>
-
+                    <li id="cell"><a href="#"><img src={monitoring} alt={"monitoring"}/>Мониторинг</a></li>
                     <li id="diagram"><a href="#"><img src={diagram} alt={"diagram"}/>Услуги и Сервисы</a></li>
                     <li id="trash"><a href="#"><img src={trash} alt={"trash"}/>Корзина</a></li>
                 </ul>
