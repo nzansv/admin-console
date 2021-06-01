@@ -52,16 +52,16 @@
     border: 1px solid #91D5FF;
     box-sizing: border-box;
     border-radius: 2px;
+    justify-content: space-between;
 
 }
 
 .alert-primary p {
     position: static;
-    width: 1258.11px;
+    width: auto;
     height: 22px;
     left: calc(50% - 1258.11px/2 + 2.05px);
     top: 0px;
-    padding-left: 12px;
 
     /* Body 14 / regular */
 
@@ -77,6 +77,9 @@
 
     color: rgba(0, 0, 0, 0.85);
 }
+.alert-primary img{
+    margin-right: 5px;
+}
 
 .alert-primary #alert {
 
@@ -87,6 +90,7 @@
 .alert-primary svg {
 padding-top: 2px;
 }
+
 .pageHeader h5 {
     position: static;
 

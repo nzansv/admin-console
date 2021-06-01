@@ -13,7 +13,7 @@ function App() {
       <main>
         <BrowserRouter>
         <Switch>
-          <Route path='/login' component={Login} exact />
+          <Route path={'/login'} component={Login} exact />
           <Route path="/userTable" component={UserTable} />
           <Route path="/userCreate" component={CreateUser} />
             <Route path="/serviceTable" component={ServiceTable} />

@@ -7,7 +7,7 @@ function Login() {
     return (
         <body className="text-center">
         <main className="form-signin">
-            <form action="" method="post">
+            <form>
                 <h1 className=""><img src={logoLogin} alt={"logo"}/> Post Admin</h1>
                 <p>Войдите в свой аккаунт</p>
                 <hr/>
@@ -16,7 +16,7 @@ function Login() {
 
                 <div className="input-login ">
                     <input className="form-control" id="password" type="password" placeholder="Пароль"/></div>
-                        <button className="w-100 btn btn-lg btn-primary" type="submit" value="register"><Link id="login-button" to="/userTable">Войти</Link></button>
+                <a href="/userTable"><button className="w-100 btn btn-lg btn-primary" type="button" value="register"><Link id="login-button" to="/userTable">Войти</Link></button></a>
             </form>
         </main>
         </body>

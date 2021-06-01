@@ -1,23 +1,35 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/userTable.css'
-import reload from '../../assets/icons/reload.svg'
 import {Pagination} from "react-bootstrap";
 import Component from "../../components/Component";
-import Search from "../../components/search/Search";
 import "../style/serviceTable.css"
+import "../style/monitoring.css"
 
 
-export default function MonitoringApplication() {
+
+
+export default function  MonitoringApplication(){
     return (
         <>
             <Component/>
             <div className="page-wrapper">
-                <div className="pageHeader">
+                <div className="pageHeaderMonitoring">
                     <label> Главная / <span>Мониторинг</span></label>
                     <h5>Мониторинг</h5>
-
-
+                    <div className="monitoringMenu">
+                        <div className="row">
+                        <div className="col">
+                        <nav className="nav nav-pills nav-justified">
+                            <a className="nav-link" id="active" href="#">Приложения и сервисы</a>
+                            <a className="nav-link" href="#">Мониторинг серверов</a>
+                            <a className="nav-link" href="#">Мониторинг сетей</a>
+                            <a className="nav-link" href="#">Отчетность</a>
+                        </nav>
+                        </div>
+                            <div className="col"/>
+                        </div>
+                    </div>
                 </div>
 
 

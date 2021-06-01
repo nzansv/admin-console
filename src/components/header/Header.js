@@ -12,7 +12,7 @@ export default function Header() {
                <a className="navbar-brand" href="#"> <img src={logo} alt={"logo"}/><span>Post Admin</span></a>
                 </div>
                 <div className="admin">
-                <a className="navbar-brand" href="#"> <img src={adminLogo} alt={"logo"}/><span>Admin</span></a>
+                <a className="navbar-brand" href="/login"> <img src={adminLogo} alt={"logo"}/><span>Admin</span></a>
                 </div>
             </div>
 
