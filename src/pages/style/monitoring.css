@@ -67,14 +67,12 @@
 
 .monitoringMenu #active {
     color: #1890FF;
-
 }
 
 
 .monitoringMenu nav a {
 
 
-    /* Subheading 16 / regular */
 
     font-family: Roboto;
     font-style: normal;

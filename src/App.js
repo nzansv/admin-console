@@ -1,8 +1,8 @@
 import Login from './pages/auth/Login'
 import Component from "./components/Component";
-import UserTable from "./pages/tables/userTable";
+import UserTable from "./pages/userTables/userTable";
 import CreateUser from "./pages/userCreate/CreateUser";
-import ReportTable from "./pages/service/reportTable";
+import ReportTable from "./pages/report/reportTable";
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import ServiceTable from "./pages/service/serviceTable";
@@ -19,6 +19,7 @@ function App() {
             <Route path="/serviceTable" component={ServiceTable} />
             <Route path="/reportTable" component={ReportTable} />
             <Route path="/monitoring" component={MonitoringApplication} />
+            <Route path="/" component={UserTable} />
         </Switch>
         </BrowserRouter>
       </main>

@@ -19,14 +19,9 @@ export default function  MonitoringApplication(){
                     <h5>Мониторинг</h5>
                     <div className="monitoringMenu">
                         <div className="row">
-                        <div className="col">
-                        <nav className="nav nav-pills nav-justified">
-                            <a className="nav-link" id="active" href="#">Приложения и сервисы</a>
-                            <a className="nav-link" href="#">Мониторинг серверов</a>
-                            <a className="nav-link" href="#">Мониторинг сетей</a>
-                            <a className="nav-link" href="#">Отчетность</a>
-                        </nav>
-                        </div>
+                            <div className="col">
+                            {/*<MonitoringHeader/>*/}
+                            </div>
                             <div className="col"/>
                         </div>
                     </div>
